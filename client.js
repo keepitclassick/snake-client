@@ -18,9 +18,10 @@ const connect = function() {
     console.log('Server Sayz:', data)
   });
 
- 
+  
 
-};
+});
+}
 connect();
 
 module.exports = 'connect';
