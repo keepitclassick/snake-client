@@ -17,11 +17,8 @@ const connect = function() {
   conn.on('data', (data) => { //get message back from server
     console.log('Server Sayz:', data)
   });
-
-  
-
 });
 }
-connect();
 
-module.exports = 'connect';
+
+module.exports = connect;
